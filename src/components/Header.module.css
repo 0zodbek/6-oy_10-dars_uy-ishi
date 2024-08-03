@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header {
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5821f;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .authButtons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #f5821f;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  

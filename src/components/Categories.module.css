@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 1920px;
+    height: 298px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color:#fff;
+  }
+  
+  .categories{
+max-width: 1600px;
+margin: auto;
+}
+
+  .category {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .category img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .category h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .category p {
+    font-size: 16px;
+    color: #666;
+  }
+  
