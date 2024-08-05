@@ -93,6 +93,7 @@ border-bottom: 3px solid #f5821f;
   border-radius: 7px;
   color: #232323;
   font-size: 18px;
+  padding-left: 10px;
 }
 .select:last-child {
   width: 60px;

@@ -6,9 +6,9 @@ import Categories from "./components/Categories";
 import { useTranslation } from "react-i18next";
 export const ThemeContext = createContext();
 function App() {
-  let themee = localStorage.getItem("theme")
+  let themee = localStorage.getItem("theme") || "light"
   let language = localStorage.getItem("language")
-  console.log(language);
+  // console.log(language);
   const { t, i18n } = useTranslation(language);
   const [theme, setTheme] = useState(themee);
   if (theme == "light") {
