@@ -1,0 +1,77 @@
+{
+  "en": {
+    "translation": {
+      "header1":"Home",
+      "header2":"Categories",
+      "header3":"Sales",
+      "header4":"FAQ",
+      "header5":"About",
+      "header6":"Contact",
+      "heroH1": "Let your groceries come to you",
+      "heroP":"Get fresh groceries online without stepping out to make delicious food with the freshest ingredients",
+      "heroCh1":"Fresh Vegetables",
+      "heroCh2":"100% Guarantee",
+      "heroCh3":"Cash on Delivery",
+      "heroCh4":"Fast Delivery",
+      "card1h":"Dairy Products",
+      "card2h":"Vegetables & Fruits",
+      "card3h":"Spices & Seasonings",
+      "card4h":"Honey",
+      "card5h":"Flour",
+      "cardP":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "heroPl":"Search here",
+      "heroCard1":"Fresh Spinach",
+      "heroCard2":"Fresh Carrot"
+    }
+  },
+  "uz": {
+    "translation": {
+      "header1":"Uy",
+      "header2":"Kategoriyalar",
+      "header3":"Sotish",
+      "header4":"TSS",
+      "header5":"Haqida",
+      "header6":"Aloqa",
+      "heroH1": "Oziq-ovqatlaringiz sizga yetib kelsin",
+      "heroP":"Eng yangi ingredientlar bilan mazali taom tayyorlash uchun tashqariga chiqmasdan yangi oziq-ovqat mahsulotlarini onlayn xarid qiling",
+      "heroCh1":"Yangi sabzavotlar",
+      "heroCh2":"100% Kafolat",
+      "heroCh3":"Yetkazib berishda naqd pul",
+      "heroCh4":"Tez yetkazib berish",
+      "card1h":"Dairy Products",
+      "card2h":"Sabzavotlar va mevalar",
+      "card3h":"Ziravorlar va ziravorlar",
+      "card4h":"Asal",
+      "card5h":"Un",
+      "cardP":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "heroPl":"Bu yerda qidiring",
+      "heroCard1":"Yangi Ismaloq",
+      "heroCard2":"Yangi sabzi"
+    }
+  },
+  "ru": {
+    "translation": {
+      "header1":"Дом",
+      "header2":"Категории",
+      "header3":"Продажи",
+      "header4":"FAQ",
+      "header5":"О",
+      "header6":"Контакт",
+      "heroH1": "Пусть ваши продукты придут к вам",
+      "heroP":"Приобретайте свежие продукты онлайн, не выходя из дома, и готовьте вкусные блюда из самых свежих ингредиентов.",
+      "heroCh1":"Свежие овощи",
+      "heroCh2":"100% гарантия",
+      "heroCh3":"Наложенным платежом",
+      "heroCh4":"Быстрая доставка",
+      "card1h":"молочные продукты",
+      "card2h":"Овощи и фрукты",
+      "card3h":"Специи и приправы",
+      "card4h":"мед",
+      "card5h":"Мука",
+      "cardP":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "heroPl":"Поищи здесь",
+      "heroCard1":"Свежий шпинат",
+      "heroCard2":"Свежая морковь"
+    }
+  }
+}

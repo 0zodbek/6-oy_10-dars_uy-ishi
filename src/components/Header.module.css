@@ -1,69 +1,103 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header {
-    width: 1600px;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #fff;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f5821f;
-  }
-  
-  .nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .nav ul li {
-    margin-right: 20px;
-  }
-  
-  .nav ul li a {
-    text-decoration: none;
-    color: #333;
-  }
 
-  .authButtons button:first-child{
-    margin-left: 10px;
-    padding: 10px 20px;
-    color: #f5821f;
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-    /* color: #fff; */
-    cursor: pointer;
-  }
-  
-  .authButtons button:last-child{
-    margin-left: 10px;
-    padding: 10px 20px;
-    background-color: #f5821f;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-  }
-.section{
-    margin-right: 25px;
-width: 120px;
-height: 40px;
-background-color: #fff;
-border:1px double #232323;
-border-radius: 7px;
-color:#232323;
-font-size: 18px;
+.dark{
+background-color: #000;
+& .nav ul li a{
+color:#fff;
 }
-.option{
-font-size: 18px;
+& header{
+background-color: #000;
+}
+& .select{
+background-color: #696969;
+}
+}
+
+
+.header {
+  width: 1600px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  /* background-color: #fff; */
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f5821f;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color:#403C39;
+}
+.nav ul li a:hover{
+  transition: all 1s;
+color:#f5821f;
+border-bottom: 3px solid #f5821f;
+}
+
+
+.authButtons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn2 {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #f5821f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.btn1 {
+  margin-left: 10px;
+  padding: 10px 20px;
+  color: #f5821f;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  /* color: #fff; */
+  cursor: pointer;
+}
+.select {
+  margin-right: 25px;
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  /* border: 1px double #232323; */
+  border-radius: 7px;
+  color: #232323;
+  font-size: 18px;
+}
+.select:last-child {
+  width: 60px;
+  margin-left: 15px;
+}
+.option {
+  font-size: 18px;
 }

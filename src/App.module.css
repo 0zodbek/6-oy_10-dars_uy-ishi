@@ -3,9 +3,16 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 .wrapper{
 width: 1920px;
 height: 1080px;
 margin: 50px auto;
-background-color: #fff;
+/* background-color: #fff; */
+overflow-x: hidden;
+}
+.dark{
+background-color: black;
 }
