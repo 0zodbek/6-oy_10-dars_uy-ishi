@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 .header {
-    width: 1920px;
+    width: 1600px;
     height: 120px;
     display: flex;
     justify-content: space-between;
@@ -34,8 +34,19 @@ box-sizing: border-box;
     text-decoration: none;
     color: #333;
   }
+
+  .authButtons button:first-child{
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: #f5821f;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    /* color: #fff; */
+    cursor: pointer;
+  }
   
-  .authButtons button {
+  .authButtons button:last-child{
     margin-left: 10px;
     padding: 10px 20px;
     background-color: #f5821f;
@@ -43,4 +54,16 @@ box-sizing: border-box;
     color: #fff;
     cursor: pointer;
   }
-  
+.section{
+    margin-right: 25px;
+width: 120px;
+height: 40px;
+background-color: #fff;
+border:1px double #232323;
+border-radius: 7px;
+color:#232323;
+font-size: 18px;
+}
+.option{
+font-size: 18px;
+}
